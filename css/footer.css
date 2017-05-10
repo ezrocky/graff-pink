@@ -1,0 +1,44 @@
+footer {
+	height: auto;
+	background: url(../images/stolenbg.png);
+	padding-bottom: 20px;
+}
+
+footer h3 {
+	font-size: 21px;
+}
+
+footer .col-md-2 {
+	margin: 20px 0 20px 0;
+	color: #999;
+	font-size: 15px;
+}
+
+footer ul {
+	list-style: none;
+	margin-top: 55px;
+	padding-bottom: 20px;
+}
+
+footer ul li {
+	display: inline;
+	padding-right: 10px;
+}	
+
+footer .copyright {
+	font-size: 15px;
+	color: #999;
+	margin-top: 20px;
+}
+
+footer a {
+	color: #fff;
+}
+
+footer a:hover {
+	color: #de6d6e;
+}
+
+footer a:visited {
+	text-decoration: none;
+}

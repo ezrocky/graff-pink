@@ -1,0 +1,112 @@
+section h1 {
+	margin-top: 72px;
+	font-size: 35px;
+}
+
+section h2 {
+	font-size: 17px;
+}
+
+section .section1{
+	text-align: center;
+}
+
+.tickets, .camera, .beer, .devices {
+	width: 180px;
+    height: 180px;
+    border-radius: 100px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    position: relative;
+    overflow: hidden;
+}
+
+.tickets-menu {
+	color: #fff;
+    padding: 35px 25px;
+    font-size: 12px;
+    text-align: center;
+    height: 180px;
+    background-color: rgba(21,87,122,0.4);
+    position: absolute;
+    bottom: -180px;
+    left: 0;
+    width: 100%;
+    transition-duration: 1s;
+    transition-property: bottom;
+}
+
+.camera-menu {
+	color: #fff;
+    padding: 35px 25px;
+    font-size: 12px;
+    text-align: center;
+    height: 180px;
+    background-color: rgba(45,98,5,0.4);
+    position: absolute;
+    bottom: -180px;
+    left: 0;
+    width: 100%;
+    transition-duration: 1s;
+    transition-property: bottom;
+}
+
+.beer-menu {
+    color: #fff;
+    padding: 35px 25px;
+    font-size: 12px;
+    text-align: center;
+    height: 180px;
+    background-color: rgba(119,17,10,0.4);
+    position: absolute;
+    bottom: -180px;
+    left: 0;
+    width: 100%;
+    transition-duration: 1s;
+    transition-property: bottom;
+}
+
+.devices-menu {
+    color: #fff;
+    padding: 35px 25px;
+    font-size: 12px;
+    text-align: center;
+    height: 180px;
+    background-color: rgba(107,60,3,0.4);
+    position: absolute;
+    bottom: -180px;
+    left: 0;
+    width: 100%;
+    transition-duration: 1s;
+    transition-property: bottom;
+}
+
+.tickets:hover div, 
+.camera:hover div, 
+.beer:hover div, 
+.devices:hover div {
+	bottom: 0;
+}
+
+.section1 {
+	height: auto;
+	border-bottom: 2px solid #ccc;
+	padding-bottom: 80px;
+}
+
+.section2 {
+	height: auto;
+	padding-bottom: 80px;
+}
+
+.clone {
+	margin-top: 50px;
+}
+
+.section2 h3 {
+	font-size: 27px;
+}
+
+.section2 p {
+	font-size: 15px;
+}

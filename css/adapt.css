@@ -1,0 +1,18 @@
+@media only screen and (max-width : 992px) {
+	header .mybrand {
+		margin-left: 15px;
+	}
+
+	.card-row.clearfix {
+		text-align: center;
+	}
+
+	.clone {
+		text-align: center;
+	}
+
+	.container.second .col-md-3 {
+		text-align: center;
+	}
+
+}
